@@ -1,0 +1,64 @@
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+.env*.secret
+*.key
+*.pem
+SECRETS*
+
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.sublime-project
+*.sublime-workspace
+
+# Build and dist directories
+dist/
+build/
+out/
+.next/
+.nuxt/
+.cache/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+desktop.ini
+
+# Testing
+coverage/
+.nyc_output/
+
+# Deployment and backup files
+*.bak
+*.tmp
+backup/
+*.backup
+
+# Claude Code artifacts (if needed)
+.claude-code/
+claude-code-output/
