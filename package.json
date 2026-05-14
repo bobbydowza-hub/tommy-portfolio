@@ -1,0 +1,34 @@
+{
+  "name": "tommy-portfolio",
+  "version": "1.0.0",
+  "description": "Tommy Dowson - Marketing Strategist & Product Launch Leader",
+  "author": "Tommy Dowson",
+  "license": "MIT",
+  "scripts": {
+    "dev": "python -m http.server 3000",
+    "build": "echo 'Portfolio is static HTML - no build needed'",
+    "deploy": "echo 'Ready to deploy to Vercel/Netlify'",
+    "audit": "claude-code 'Review the portfolio for performance and accessibility issues'",
+    "update-materials": "claude-code 'Update the materials section with new links and projects'",
+    "add-blog": "claude-code 'Create a new blog post page and integrate it into the portfolio'",
+    "customize-cv": "claude-code 'Create a script to generate job-specific CV variations'",
+    "enhance-ui": "claude-code 'Add new interactive features to the portfolio'"
+  },
+  "devDependencies": {
+    "@anthropic-ai/claude-code": "^latest"
+  },
+  "keywords": [
+    "portfolio",
+    "marketing",
+    "web3",
+    "product-launch",
+    "saas"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/tommy-portfolio"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
